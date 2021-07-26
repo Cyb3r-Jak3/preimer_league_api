@@ -1,0 +1,1189 @@
+{
+  "entity": {
+    "playerId": 136935,
+    "info": {
+      "position": "F",
+      "shirtNum": 18,
+      "positionInfo": "Centre Striker",
+      "loan": true
+    },
+    "nationalTeam": {
+      "isoCode": "GB-ENG",
+      "country": "England",
+      "demonym": "English"
+    },
+    "birth": {
+      "date": {
+        "millis": 875750400000,
+        "label": "2 October 1997"
+      },
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "place": "London"
+    },
+    "age": "23 years 280 days",
+    "name": {
+      "display": "Tammy Abraham",
+      "first": "Tammy",
+      "last": "Abraham"
+    },
+    "id": 13286
+  },
+  "stats": [
+    {
+      "name": "accurate_back_zone_pass",
+      "value": 218,
+      "description": "Todo: accurate_back_zone_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_chipped_pass",
+      "value": 12,
+      "description": "Todo: accurate_chipped_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_cross",
+      "value": 5,
+      "description": "Todo: accurate_cross",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_cross_nocorner",
+      "value": 5,
+      "description": "Todo: accurate_cross_nocorner",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_flick_on",
+      "value": 36,
+      "description": "Todo: accurate_flick_on",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_fwd_zone_pass",
+      "value": 418,
+      "description": "Todo: accurate_fwd_zone_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_launches",
+      "value": 1,
+      "description": "Todo: accurate_launches",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_layoffs",
+      "value": 66,
+      "description": "Todo: accurate_layoffs",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_long_balls",
+      "value": 14,
+      "description": "Todo: accurate_long_balls",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_pass",
+      "value": 631,
+      "description": "Todo: accurate_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_pull_back",
+      "value": 1,
+      "description": "Todo: accurate_pull_back",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_through_ball",
+      "value": 2,
+      "description": "Todo: accurate_through_ball",
+      "additionalInfo": {}
+    },
+    {
+      "name": "accurate_throws",
+      "value": 1,
+      "description": "Todo: accurate_throws",
+      "additionalInfo": {}
+    },
+    {
+      "name": "aerial_lost",
+      "value": 202,
+      "description": "Todo: aerial_lost",
+      "additionalInfo": {}
+    },
+    {
+      "name": "aerial_won",
+      "value": 169,
+      "description": "Todo: aerial_won",
+      "additionalInfo": {}
+    },
+    {
+      "name": "appearances",
+      "value": 89,
+      "description": "Todo: appearances",
+      "additionalInfo": {}
+    },
+    {
+      "name": "assist_attempt_saved",
+      "value": 0,
+      "description": "Todo: assist_attempt_saved",
+      "additionalInfo": {}
+    },
+    {
+      "name": "assist_blocked_shot",
+      "value": 3,
+      "description": "Todo: assist_blocked_shot",
+      "additionalInfo": {}
+    },
+    {
+      "name": "assist_own_goal",
+      "value": 1,
+      "description": "Todo: assist_own_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "assist_penalty_won",
+      "value": 2,
+      "description": "Todo: assist_penalty_won",
+      "additionalInfo": {}
+    },
+    {
+      "name": "attempted_tackle_foul",
+      "value": 18,
+      "description": "Todo: attempted_tackle_foul",
+      "additionalInfo": {}
+    },
+    {
+      "name": "attempts_conceded_ibox",
+      "value": 377,
+      "description": "Todo: attempts_conceded_ibox",
+      "additionalInfo": {}
+    },
+    {
+      "name": "attempts_conceded_obox",
+      "value": 215,
+      "description": "Todo: attempts_conceded_obox",
+      "additionalInfo": {}
+    },
+    {
+      "name": "attempts_ibox",
+      "value": 146,
+      "description": "Todo: attempts_ibox",
+      "additionalInfo": {}
+    },
+    {
+      "name": "attempts_obox",
+      "value": 16,
+      "description": "Todo: attempts_obox",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_assist_openplay",
+      "value": 37,
+      "description": "Todo: att_assist_openplay",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_bx_centre",
+      "value": 99,
+      "description": "Todo: att_bx_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_bx_left",
+      "value": 9,
+      "description": "Todo: att_bx_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_bx_right",
+      "value": 12,
+      "description": "Todo: att_bx_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_cmiss_high",
+      "value": 2,
+      "description": "Todo: att_cmiss_high",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_cmiss_high_left",
+      "value": 1,
+      "description": "Todo: att_cmiss_high_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_cmiss_high_right",
+      "value": 1,
+      "description": "Todo: att_cmiss_high_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_cmiss_left",
+      "value": 4,
+      "description": "Todo: att_cmiss_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_cmiss_right",
+      "value": 9,
+      "description": "Todo: att_cmiss_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_corner",
+      "value": 20,
+      "description": "Todo: att_corner",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_fastbreak",
+      "value": 8,
+      "description": "Todo: att_fastbreak",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_goal_high_centre",
+      "value": 1,
+      "description": "Todo: att_goal_high_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_goal_high_left",
+      "value": 2,
+      "description": "Todo: att_goal_high_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_goal_high_right",
+      "value": 1,
+      "description": "Todo: att_goal_high_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_goal_low_centre",
+      "value": 4,
+      "description": "Todo: att_goal_low_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_goal_low_left",
+      "value": 7,
+      "description": "Todo: att_goal_low_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_goal_low_right",
+      "value": 11,
+      "description": "Todo: att_goal_low_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_hd_goal",
+      "value": 3,
+      "description": "Todo: att_hd_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_hd_miss",
+      "value": 23,
+      "description": "Todo: att_hd_miss",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_hd_post",
+      "value": 0,
+      "description": "Todo: att_hd_post",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_hd_target",
+      "value": 10,
+      "description": "Todo: att_hd_target",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_hd_total",
+      "value": 36,
+      "description": "Todo: att_hd_total",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_ibox_blocked",
+      "value": 27,
+      "description": "Todo: att_ibox_blocked",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_ibox_goal",
+      "value": 25,
+      "description": "Todo: att_ibox_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_ibox_miss",
+      "value": 57,
+      "description": "Todo: att_ibox_miss",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_ibox_post",
+      "value": 1,
+      "description": "Todo: att_ibox_post",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_ibox_target",
+      "value": 37,
+      "description": "Todo: att_ibox_target",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_lf_goal",
+      "value": 1,
+      "description": "Todo: att_lf_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_lf_target",
+      "value": 7,
+      "description": "Todo: att_lf_target",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_lf_total",
+      "value": 19,
+      "description": "Todo: att_lf_total",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_lg_centre",
+      "value": 0,
+      "description": "Todo: att_lg_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_miss_high",
+      "value": 14,
+      "description": "Todo: att_miss_high",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_miss_high_left",
+      "value": 3,
+      "description": "Todo: att_miss_high_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_miss_high_right",
+      "value": 5,
+      "description": "Todo: att_miss_high_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_miss_left",
+      "value": 24,
+      "description": "Todo: att_miss_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_miss_right",
+      "value": 18,
+      "description": "Todo: att_miss_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_obox_blocked",
+      "value": 4,
+      "description": "Todo: att_obox_blocked",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_obox_goal",
+      "value": 1,
+      "description": "Todo: att_obox_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_obox_miss",
+      "value": 7,
+      "description": "Todo: att_obox_miss",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_obox_target",
+      "value": 5,
+      "description": "Todo: att_obox_target",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_obp_goal",
+      "value": 2,
+      "description": "Todo: att_obp_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_obx_centre",
+      "value": 17,
+      "description": "Todo: att_obx_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_one_on_one",
+      "value": 7,
+      "description": "Todo: att_one_on_one",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_openplay",
+      "value": 133,
+      "description": "Todo: att_openplay",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_post_high",
+      "value": 0,
+      "description": "Todo: att_post_high",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_post_left",
+      "value": 1,
+      "description": "Todo: att_post_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_rf_goal",
+      "value": 20,
+      "description": "Todo: att_rf_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_rf_target",
+      "value": 24,
+      "description": "Todo: att_rf_target",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_rf_total",
+      "value": 97,
+      "description": "Todo: att_rf_total",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_setpiece",
+      "value": 5,
+      "description": "Todo: att_setpiece",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_sv_high_centre",
+      "value": 5,
+      "description": "Todo: att_sv_high_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_sv_high_left",
+      "value": 2,
+      "description": "Todo: att_sv_high_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_sv_high_right",
+      "value": 2,
+      "description": "Todo: att_sv_high_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_sv_low_centre",
+      "value": 22,
+      "description": "Todo: att_sv_low_centre",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_sv_low_left",
+      "value": 3,
+      "description": "Todo: att_sv_low_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "att_sv_low_right",
+      "value": 8,
+      "description": "Todo: att_sv_low_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "backward_pass",
+      "value": 280,
+      "description": "Todo: backward_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "ball_recovery",
+      "value": 118,
+      "description": "Todo: ball_recovery",
+      "additionalInfo": {}
+    },
+    {
+      "name": "big_chance_created",
+      "value": 7,
+      "description": "Todo: big_chance_created",
+      "additionalInfo": {}
+    },
+    {
+      "name": "big_chance_missed",
+      "value": 30,
+      "description": "Todo: big_chance_missed",
+      "additionalInfo": {}
+    },
+    {
+      "name": "big_chance_scored",
+      "value": 17,
+      "description": "Todo: big_chance_scored",
+      "additionalInfo": {}
+    },
+    {
+      "name": "blocked_pass",
+      "value": 70,
+      "description": "Todo: blocked_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "blocked_scoring_att",
+      "value": 31,
+      "description": "Todo: blocked_scoring_att",
+      "additionalInfo": {}
+    },
+    {
+      "name": "challenge_lost",
+      "value": 30,
+      "description": "Todo: challenge_lost",
+      "additionalInfo": {}
+    },
+    {
+      "name": "clean_sheet",
+      "value": 6,
+      "description": "Todo: clean_sheet",
+      "additionalInfo": {}
+    },
+    {
+      "name": "crosses_18yard",
+      "value": 30,
+      "description": "Todo: crosses_18yard",
+      "additionalInfo": {}
+    },
+    {
+      "name": "crosses_18yardplus",
+      "value": 2,
+      "description": "Todo: crosses_18yardplus",
+      "additionalInfo": {}
+    },
+    {
+      "name": "dispossessed",
+      "value": 103,
+      "description": "Todo: dispossessed",
+      "additionalInfo": {}
+    },
+    {
+      "name": "draws",
+      "value": 20,
+      "description": "Todo: draws",
+      "additionalInfo": {}
+    },
+    {
+      "name": "duel_lost",
+      "value": 434,
+      "description": "Todo: duel_lost",
+      "additionalInfo": {}
+    },
+    {
+      "name": "duel_won",
+      "value": 305,
+      "description": "Todo: duel_won",
+      "additionalInfo": {}
+    },
+    {
+      "name": "effective_clearance",
+      "value": 55,
+      "description": "Todo: effective_clearance",
+      "additionalInfo": {}
+    },
+    {
+      "name": "effective_head_clearance",
+      "value": 45,
+      "description": "Todo: effective_head_clearance",
+      "additionalInfo": {}
+    },
+    {
+      "name": "fifty_fifty",
+      "value": 27,
+      "description": "Todo: fifty_fifty",
+      "additionalInfo": {}
+    },
+    {
+      "name": "final_third_entries",
+      "value": 101,
+      "description": "Todo: final_third_entries",
+      "additionalInfo": {}
+    },
+    {
+      "name": "formation_place",
+      "value": 0,
+      "description": "Todo: formation_place",
+      "additionalInfo": {}
+    },
+    {
+      "name": "fouled_final_third",
+      "value": 19,
+      "description": "Todo: fouled_final_third",
+      "additionalInfo": {}
+    },
+    {
+      "name": "fouls",
+      "value": 56,
+      "description": "Todo: fouls",
+      "additionalInfo": {}
+    },
+    {
+      "name": "fwd_pass",
+      "value": 202,
+      "description": "Todo: fwd_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "game_started",
+      "value": 52,
+      "description": "Todo: game_started",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goals",
+      "value": 26,
+      "description": "Todo: goals",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goals_conceded",
+      "value": 79,
+      "description": "Todo: goals_conceded",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goals_conceded_ibox",
+      "value": 70,
+      "description": "Todo: goals_conceded_ibox",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goals_conceded_obox",
+      "value": 9,
+      "description": "Todo: goals_conceded_obox",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goals_openplay",
+      "value": 24,
+      "description": "Todo: goals_openplay",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goal_assist",
+      "value": 5,
+      "description": "Todo: goal_assist",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goal_assist_intentional",
+      "value": 4,
+      "description": "Todo: goal_assist_intentional",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goal_assist_openplay",
+      "value": 5,
+      "description": "Todo: goal_assist_openplay",
+      "additionalInfo": {}
+    },
+    {
+      "name": "goal_fastbreak",
+      "value": 5,
+      "description": "Todo: goal_fastbreak",
+      "additionalInfo": {}
+    },
+    {
+      "name": "hand_ball",
+      "value": 5,
+      "description": "Todo: hand_ball",
+      "additionalInfo": {}
+    },
+    {
+      "name": "head_clearance",
+      "value": 45,
+      "description": "Todo: head_clearance",
+      "additionalInfo": {}
+    },
+    {
+      "name": "head_pass",
+      "value": 159,
+      "description": "Todo: head_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "hit_woodwork",
+      "value": 3,
+      "description": "Todo: hit_woodwork",
+      "additionalInfo": {}
+    },
+    {
+      "name": "interception",
+      "value": 12,
+      "description": "Todo: interception",
+      "additionalInfo": {}
+    },
+    {
+      "name": "interceptions_in_box",
+      "value": 1,
+      "description": "Todo: interceptions_in_box",
+      "additionalInfo": {}
+    },
+    {
+      "name": "interception_won",
+      "value": 12,
+      "description": "Todo: interception_won",
+      "additionalInfo": {}
+    },
+    {
+      "name": "leftside_pass",
+      "value": 229,
+      "description": "Todo: leftside_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "long_pass_own_to_opp",
+      "value": 55,
+      "description": "Todo: long_pass_own_to_opp",
+      "additionalInfo": {}
+    },
+    {
+      "name": "long_pass_own_to_opp_success",
+      "value": 31,
+      "description": "Todo: long_pass_own_to_opp_success",
+      "additionalInfo": {}
+    },
+    {
+      "name": "losses",
+      "value": 33,
+      "description": "Todo: losses",
+      "additionalInfo": {}
+    },
+    {
+      "name": "lost_corners",
+      "value": 12,
+      "description": "Todo: lost_corners",
+      "additionalInfo": {}
+    },
+    {
+      "name": "mins_played",
+      "value": 5028,
+      "description": "Todo: mins_played",
+      "additionalInfo": {}
+    },
+    {
+      "name": "offside_provoked",
+      "value": 1,
+      "description": "Todo: offside_provoked",
+      "additionalInfo": {}
+    },
+    {
+      "name": "offtarget_att_assist",
+      "value": 15,
+      "description": "Todo: offtarget_att_assist",
+      "additionalInfo": {}
+    },
+    {
+      "name": "ontarget_att_assist",
+      "value": 27,
+      "description": "Todo: ontarget_att_assist",
+      "additionalInfo": {}
+    },
+    {
+      "name": "ontarget_scoring_att",
+      "value": 68,
+      "description": "Todo: ontarget_scoring_att",
+      "additionalInfo": {}
+    },
+    {
+      "name": "open_play_pass",
+      "value": 826,
+      "description": "Todo: open_play_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "outfielder_block",
+      "value": 3,
+      "description": "Todo: outfielder_block",
+      "additionalInfo": {}
+    },
+    {
+      "name": "overrun",
+      "value": 7,
+      "description": "Todo: overrun",
+      "additionalInfo": {}
+    },
+    {
+      "name": "own_goals",
+      "value": 1,
+      "description": "Todo: own_goals",
+      "additionalInfo": {}
+    },
+    {
+      "name": "passes_left",
+      "value": 92,
+      "description": "Todo: passes_left",
+      "additionalInfo": {}
+    },
+    {
+      "name": "passes_right",
+      "value": 145,
+      "description": "Todo: passes_right",
+      "additionalInfo": {}
+    },
+    {
+      "name": "penalty_won",
+      "value": 2,
+      "description": "Todo: penalty_won",
+      "additionalInfo": {}
+    },
+    {
+      "name": "pen_area_entries",
+      "value": 49,
+      "description": "Todo: pen_area_entries",
+      "additionalInfo": {}
+    },
+    {
+      "name": "pen_goals_conceded",
+      "value": 5,
+      "description": "Todo: pen_goals_conceded",
+      "additionalInfo": {}
+    },
+    {
+      "name": "poss_lost_all",
+      "value": 638,
+      "description": "Todo: poss_lost_all",
+      "additionalInfo": {}
+    },
+    {
+      "name": "poss_lost_ctrl",
+      "value": 638,
+      "description": "Todo: poss_lost_ctrl",
+      "additionalInfo": {}
+    },
+    {
+      "name": "poss_won_att_3rd",
+      "value": 26,
+      "description": "Todo: poss_won_att_3rd",
+      "additionalInfo": {}
+    },
+    {
+      "name": "poss_won_def_3rd",
+      "value": 25,
+      "description": "Todo: poss_won_def_3rd",
+      "additionalInfo": {}
+    },
+    {
+      "name": "poss_won_mid_3rd",
+      "value": 67,
+      "description": "Todo: poss_won_mid_3rd",
+      "additionalInfo": {}
+    },
+    {
+      "name": "post_scoring_att",
+      "value": 1,
+      "description": "Todo: post_scoring_att",
+      "additionalInfo": {}
+    },
+    {
+      "name": "put_through",
+      "value": 70,
+      "description": "Todo: put_through",
+      "additionalInfo": {}
+    },
+    {
+      "name": "rightside_pass",
+      "value": 211,
+      "description": "Todo: rightside_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "shield_ball_oop",
+      "value": 2,
+      "description": "Todo: shield_ball_oop",
+      "additionalInfo": {}
+    },
+    {
+      "name": "shot_fastbreak",
+      "value": 8,
+      "description": "Todo: shot_fastbreak",
+      "additionalInfo": {}
+    },
+    {
+      "name": "shot_off_target",
+      "value": 65,
+      "description": "Todo: shot_off_target",
+      "additionalInfo": {}
+    },
+    {
+      "name": "six_yard_block",
+      "value": 3,
+      "description": "Todo: six_yard_block",
+      "additionalInfo": {}
+    },
+    {
+      "name": "successful_fifty_fifty",
+      "value": 14,
+      "description": "Todo: successful_fifty_fifty",
+      "additionalInfo": {}
+    },
+    {
+      "name": "successful_final_third_passes",
+      "value": 215,
+      "description": "Todo: successful_final_third_passes",
+      "additionalInfo": {}
+    },
+    {
+      "name": "successful_open_play_pass",
+      "value": 537,
+      "description": "Todo: successful_open_play_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "successful_put_through",
+      "value": 31,
+      "description": "Todo: successful_put_through",
+      "additionalInfo": {}
+    },
+    {
+      "name": "times_tackled",
+      "value": 19,
+      "description": "Todo: times_tackled",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_att_assist",
+      "value": 42,
+      "description": "Todo: total_att_assist",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_back_zone_pass",
+      "value": 264,
+      "description": "Todo: total_back_zone_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_chipped_pass",
+      "value": 20,
+      "description": "Todo: total_chipped_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_clearance",
+      "value": 55,
+      "description": "Todo: total_clearance",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_contest",
+      "value": 102,
+      "description": "Todo: total_contest",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_cross",
+      "value": 32,
+      "description": "Todo: total_cross",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_cross_nocorner",
+      "value": 32,
+      "description": "Todo: total_cross_nocorner",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_distance_in_m",
+      "value": 182013.7470703125,
+      "description": "Todo: total_distance_in_m",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_fastbreak",
+      "value": 9,
+      "description": "Todo: total_fastbreak",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_final_third_passes",
+      "value": 376,
+      "description": "Todo: total_final_third_passes",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_flick_on",
+      "value": 109,
+      "description": "Todo: total_flick_on",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_fwd_zone_pass",
+      "value": 690,
+      "description": "Todo: total_fwd_zone_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_launches",
+      "value": 10,
+      "description": "Todo: total_launches",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_layoffs",
+      "value": 90,
+      "description": "Todo: total_layoffs",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_long_balls",
+      "value": 33,
+      "description": "Todo: total_long_balls",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_offside",
+      "value": 39,
+      "description": "Todo: total_offside",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_pass",
+      "value": 922,
+      "description": "Todo: total_pass",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_pull_back",
+      "value": 3,
+      "description": "Todo: total_pull_back",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_scoring_att",
+      "value": 164,
+      "description": "Todo: total_scoring_att",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_sub_off",
+      "value": 27,
+      "description": "Todo: total_sub_off",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_sub_on",
+      "value": 37,
+      "description": "Todo: total_sub_on",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_tackle",
+      "value": 25,
+      "description": "Todo: total_tackle",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_through_ball",
+      "value": 4,
+      "description": "Todo: total_through_ball",
+      "additionalInfo": {}
+    },
+    {
+      "name": "total_throws",
+      "value": 1,
+      "description": "Todo: total_throws",
+      "additionalInfo": {}
+    },
+    {
+      "name": "touches",
+      "value": 1811,
+      "description": "Todo: touches",
+      "additionalInfo": {}
+    },
+    {
+      "name": "touches_in_opp_box",
+      "value": 296,
+      "description": "Todo: touches_in_opp_box",
+      "additionalInfo": {}
+    },
+    {
+      "name": "turnover",
+      "value": 158,
+      "description": "Todo: turnover",
+      "additionalInfo": {}
+    },
+    {
+      "name": "unsuccessful_touch",
+      "value": 158,
+      "description": "Todo: unsuccessful_touch",
+      "additionalInfo": {}
+    },
+    {
+      "name": "was_fouled",
+      "value": 63,
+      "description": "Todo: was_fouled",
+      "additionalInfo": {}
+    },
+    {
+      "name": "winning_goal",
+      "value": 0,
+      "description": "Todo: winning_goal",
+      "additionalInfo": {}
+    },
+    {
+      "name": "wins",
+      "value": 36,
+      "description": "Todo: wins",
+      "additionalInfo": {}
+    },
+    {
+      "name": "won_contest",
+      "value": 50,
+      "description": "Todo: won_contest",
+      "additionalInfo": {}
+    },
+    {
+      "name": "won_corners",
+      "value": 41,
+      "description": "Todo: won_corners",
+      "additionalInfo": {}
+    },
+    {
+      "name": "won_tackle",
+      "value": 17,
+      "description": "Todo: won_tackle",
+      "additionalInfo": {}
+    },
+    {
+      "name": "yellow_card",
+      "value": 2,
+      "description": "Todo: yellow_card",
+      "additionalInfo": {}
+    }
+  ]
+}

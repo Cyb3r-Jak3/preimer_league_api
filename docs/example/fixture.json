@@ -1,0 +1,1114 @@
+{
+    "fixture": {
+        "gameweek": {
+            "id": 5701,
+            "gameweek": 38
+        },
+        "kickoff": {
+            "completeness": 3,
+            "millis": 1621782000000,
+            "label": "Sun 23 May 2021, 16:00 BST",
+            "gmtOffset": 1
+        },
+        "provisionalKickoff": {
+            "completeness": 3,
+            "millis": 1621782000000,
+            "label": "Sun 23 May 2021, 16:00 BST",
+            "gmtOffset": 1
+        },
+        "teams": [
+            {
+                "team": {
+                    "name": "Arsenal",
+                    "club": {
+                        "name": "Arsenal",
+                        "abbr": "ARS",
+                        "id": 1
+                    },
+                    "teamType": "FIRST",
+                    "shortName": "Arsenal",
+                    "id": 1
+                },
+                "score": 2
+            },
+            {
+                "team": {
+                    "name": "Brighton and Hove Albion",
+                    "club": {
+                        "name": "Brighton and Hove Albion",
+                        "abbr": "BHA",
+                        "id": 131
+                    },
+                    "teamType": "FIRST",
+                    "shortName": "Brighton",
+                    "id": 131
+                },
+                "score": 0
+            }
+        ],
+        "replay": false,
+        "ground": {
+            "name": "Emirates Stadium",
+            "city": "London",
+            "source": "OPTA",
+            "id": 52
+        },
+        "neutralGround": false,
+        "status": "C",
+        "phase": "F",
+        "outcome": "H",
+        "attendance": 10000,
+        "clock": {
+            "secs": 5580,
+            "label": "90 +3'00"
+        },
+        "fixtureType": "REGULAR",
+        "extraTime": false,
+        "shootout": false,
+        "behindClosedDoors": false,
+        "id": 59266
+    },
+    "events": {
+        "pageInfo": {
+            "page": 0,
+            "numPages": 1,
+            "pageSize": 200,
+            "numEntries": 86
+        },
+        "content": [
+            {
+                "id": 1566599,
+                "type": "lineup",
+                "text": "Lineups are announced and players are warming up."
+            },
+            {
+                "id": 1566609,
+                "time": {
+                    "secs": 0,
+                    "label": "01"
+                },
+                "type": "start",
+                "text": "First Half begins."
+            },
+            {
+                "id": 1566658,
+                "time": {
+                    "secs": 221,
+                    "label": "04"
+                },
+                "type": "attempt blocked",
+                "text": "Attempt blocked. Martin Ødegaard (Arsenal) left footed shot from outside the box is blocked. Assisted by Emile Smith Rowe.",
+                "playerIds": [
+                    11419,
+                    14445
+                ]
+            },
+            {
+                "id": 1566635,
+                "time": {
+                    "secs": 281,
+                    "label": "05"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Adam Webster.",
+                "playerIds": [
+                    9426
+                ]
+            },
+            {
+                "id": 1566645,
+                "time": {
+                    "secs": 322,
+                    "label": "06"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Thomas Partey (Arsenal) right footed shot from outside the box is close, but misses to the right. Assisted by Granit Xhaka.",
+                "playerIds": [
+                    4936,
+                    12136
+                ]
+            },
+            {
+                "id": 1566646,
+                "time": {
+                    "secs": 354,
+                    "label": "06"
+                },
+                "type": "attempt saved",
+                "text": "Attempt saved. Granit Xhaka (Arsenal) left footed shot from outside the box is saved in the bottom left corner. Assisted by Calum Chambers.",
+                "playerIds": [
+                    12136,
+                    4620
+                ]
+            },
+            {
+                "id": 1566657,
+                "time": {
+                    "secs": 409,
+                    "label": "07"
+                },
+                "type": "attempt blocked",
+                "text": "Attempt blocked. Nicolas Pépé (Arsenal) left footed shot from outside the box is blocked. Assisted by Pierre-Emerick Aubameyang.",
+                "playerIds": [
+                    50252,
+                    5110
+                ]
+            },
+            {
+                "id": 1566677,
+                "time": {
+                    "secs": 570,
+                    "label": "10"
+                },
+                "type": "attempt blocked",
+                "text": "Attempt blocked. Martin Ødegaard (Arsenal) left footed shot from outside the box is blocked. Assisted by Emile Smith Rowe.",
+                "playerIds": [
+                    11419,
+                    14445
+                ]
+            },
+            {
+                "id": 1566696,
+                "time": {
+                    "secs": 571,
+                    "label": "10"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Ben White.",
+                "playerIds": [
+                    14548
+                ]
+            },
+            {
+                "id": 1566693,
+                "time": {
+                    "secs": 606,
+                    "label": "11"
+                },
+                "type": "free kick won",
+                "text": "Robert Sánchez (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    14538
+                ]
+            },
+            {
+                "id": 1566695,
+                "time": {
+                    "secs": 606,
+                    "label": "11"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Gabriel Magalhães (Arsenal).",
+                "playerIds": [
+                    50234
+                ]
+            },
+            {
+                "id": 1566694,
+                "time": {
+                    "secs": 674,
+                    "label": "12"
+                },
+                "type": "free kick won",
+                "text": "Emile Smith Rowe (Arsenal) wins a free kick on the left wing.",
+                "playerIds": [
+                    14445
+                ]
+            },
+            {
+                "id": 1566697,
+                "time": {
+                    "secs": 674,
+                    "label": "12"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Adam Webster (Brighton and Hove Albion).",
+                "playerIds": [
+                    9426
+                ]
+            },
+            {
+                "id": 1566711,
+                "time": {
+                    "secs": 796,
+                    "label": "14"
+                },
+                "type": "corner",
+                "text": "Corner,  Brighton and Hove Albion. Conceded by Calum Chambers.",
+                "playerIds": [
+                    4620
+                ]
+            },
+            {
+                "id": 1566801,
+                "time": {
+                    "secs": 1384,
+                    "label": "24"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Pierre-Emerick Aubameyang (Arsenal) with an attempt from the left side of the six yard box misses to the left. Assisted by Martin Ødegaard with a cross.",
+                "playerIds": [
+                    5110,
+                    11419
+                ]
+            },
+            {
+                "id": 1566816,
+                "time": {
+                    "secs": 1487,
+                    "label": "25"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Yves Bissouma (Brighton and Hove Albion).",
+                "playerIds": [
+                    50245
+                ]
+            },
+            {
+                "id": 1566817,
+                "time": {
+                    "secs": 1487,
+                    "label": "25"
+                },
+                "type": "free kick won",
+                "text": "Martin Ødegaard (Arsenal) wins a free kick in the attacking half.",
+                "playerIds": [
+                    11419
+                ]
+            },
+            {
+                "id": 1566841,
+                "time": {
+                    "secs": 1567,
+                    "label": "27"
+                },
+                "type": "attempt saved",
+                "text": "Attempt saved. Thomas Partey (Arsenal) right footed shot from outside the box is saved in the top right corner. Assisted by Pierre-Emerick Aubameyang.",
+                "playerIds": [
+                    4936,
+                    5110
+                ]
+            },
+            {
+                "id": 1566842,
+                "time": {
+                    "secs": 1569,
+                    "label": "27"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Robert Sánchez.",
+                "playerIds": [
+                    14538
+                ]
+            },
+            {
+                "id": 1566840,
+                "time": {
+                    "secs": 1612,
+                    "label": "27"
+                },
+                "type": "attempt blocked",
+                "text": "Attempt blocked. Granit Xhaka (Arsenal) left footed shot from outside the box is blocked. Assisted by Emile Smith Rowe.",
+                "playerIds": [
+                    12136,
+                    14445
+                ]
+            },
+            {
+                "id": 1566839,
+                "time": {
+                    "secs": 1654,
+                    "label": "28"
+                },
+                "type": "free kick won",
+                "text": "Emile Smith Rowe (Arsenal) wins a free kick in the attacking half.",
+                "playerIds": [
+                    14445
+                ]
+            },
+            {
+                "id": 1566844,
+                "time": {
+                    "secs": 1654,
+                    "label": "28"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Dan Burn (Brighton and Hove Albion).",
+                "playerIds": [
+                    8707
+                ]
+            },
+            {
+                "id": 1566843,
+                "time": {
+                    "secs": 1714,
+                    "label": "29"
+                },
+                "type": "attempt saved",
+                "text": "Attempt saved. Granit Xhaka (Arsenal) left footed shot from outside the box is saved in the bottom right corner.",
+                "playerIds": [
+                    12136
+                ]
+            },
+            {
+                "id": 1566852,
+                "time": {
+                    "secs": 1776,
+                    "label": "30"
+                },
+                "type": "free kick won",
+                "text": "Emile Smith Rowe (Arsenal) wins a free kick in the defensive half.",
+                "playerIds": [
+                    14445
+                ]
+            },
+            {
+                "id": 1566854,
+                "time": {
+                    "secs": 1776,
+                    "label": "30"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Alexis Mac Allister (Brighton and Hove Albion).",
+                "playerIds": [
+                    63633
+                ]
+            },
+            {
+                "id": 1566860,
+                "time": {
+                    "secs": 1816,
+                    "label": "31"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Yves Bissouma.",
+                "playerIds": [
+                    50245
+                ]
+            },
+            {
+                "id": 1566869,
+                "time": {
+                    "secs": 1845,
+                    "label": "31"
+                },
+                "type": "offside",
+                "text": "Offside, Arsenal. Thomas Partey tries a through ball, but Rob Holding is caught offside.",
+                "playerIds": [
+                    4936
+                ]
+            },
+            {
+                "id": 1566878,
+                "time": {
+                    "secs": 1975,
+                    "label": "33"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Granit Xhaka (Arsenal).",
+                "playerIds": [
+                    12136
+                ]
+            },
+            {
+                "id": 1566879,
+                "time": {
+                    "secs": 1975,
+                    "label": "33"
+                },
+                "type": "free kick won",
+                "text": "Alexis Mac Allister (Brighton and Hove Albion) wins a free kick in the attacking half.",
+                "playerIds": [
+                    63633
+                ]
+            },
+            {
+                "id": 1566880,
+                "time": {
+                    "secs": 2004,
+                    "label": "34"
+                },
+                "type": "offside",
+                "text": "Offside, Brighton and Hove Albion. Dan Burn tries a through ball, but Leandro Trossard is caught offside.",
+                "playerIds": [
+                    8707
+                ]
+            },
+            {
+                "id": 1566892,
+                "time": {
+                    "secs": 2079,
+                    "label": "35"
+                },
+                "type": "attempt blocked",
+                "text": "Attempt blocked. Jakub Moder (Brighton and Hove Albion) left footed shot from the centre of the box is blocked. Assisted by Alireza Jahanbakhsh.",
+                "playerIds": [
+                    108751,
+                    15480
+                ]
+            },
+            {
+                "id": 1566893,
+                "time": {
+                    "secs": 2090,
+                    "label": "35"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Lewis Dunk (Brighton and Hove Albion) right footed shot from outside the box is high and wide to the right.",
+                "playerIds": [
+                    8163
+                ]
+            },
+            {
+                "id": 1566910,
+                "time": {
+                    "secs": 2185,
+                    "label": "37"
+                },
+                "type": "free kick won",
+                "text": "Jakub Moder (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    108751
+                ]
+            },
+            {
+                "id": 1566911,
+                "time": {
+                    "secs": 2185,
+                    "label": "37"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Rob Holding (Arsenal).",
+                "playerIds": [
+                    11575
+                ]
+            },
+            {
+                "id": 1566926,
+                "time": {
+                    "secs": 2353,
+                    "label": "40"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Adam Webster.",
+                "playerIds": [
+                    9426
+                ]
+            },
+            {
+                "id": 1566957,
+                "time": {
+                    "secs": 2564,
+                    "label": "43"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Pascal Groß.",
+                "playerIds": [
+                    22542
+                ]
+            },
+            {
+                "id": 1566966,
+                "time": {
+                    "secs": 2609,
+                    "label": "44"
+                },
+                "type": "post",
+                "text": "Gabriel Magalhães (Arsenal) hits the bar with a header from the centre of the box. Assisted by Granit Xhaka following a corner.",
+                "playerIds": [
+                    50234,
+                    12136
+                ]
+            },
+            {
+                "id": 1566958,
+                "time": {
+                    "secs": 2613,
+                    "label": "44"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Lewis Dunk.",
+                "playerIds": [
+                    8163
+                ]
+            },
+            {
+                "id": 1566967,
+                "time": {
+                    "secs": 2646,
+                    "label": "45"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Yves Bissouma.",
+                "playerIds": [
+                    50245
+                ]
+            },
+            {
+                "id": 1566968,
+                "time": {
+                    "secs": 2666,
+                    "label": "45"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Thomas Partey (Arsenal) header from the centre of the box misses to the left. Assisted by Martin Ødegaard with a cross following a corner.",
+                "playerIds": [
+                    4936,
+                    11419
+                ]
+            },
+            {
+                "id": 1566972,
+                "time": {
+                    "secs": 2708,
+                    "label": "45 +1"
+                },
+                "type": "end 1",
+                "text": "First Half ends, Arsenal 0, Brighton and Hove Albion 0."
+            },
+            {
+                "id": 1567011,
+                "time": {
+                    "secs": 2700,
+                    "label": "46"
+                },
+                "type": "start",
+                "text": "Second Half begins Arsenal 0, Brighton and Hove Albion 0."
+            },
+            {
+                "id": 1567018,
+                "time": {
+                    "secs": 2700,
+                    "label": "46"
+                },
+                "type": "substitution",
+                "text": "Substitution, Brighton and Hove Albion. Adam Lallana replaces Alireza Jahanbakhsh.",
+                "playerIds": [
+                    4618,
+                    15480
+                ]
+            },
+            {
+                "id": 1567020,
+                "time": {
+                    "secs": 2700,
+                    "label": "46"
+                },
+                "type": "substitution",
+                "text": "Substitution, Brighton and Hove Albion. Aaron Connolly replaces Leandro Trossard.",
+                "playerIds": [
+                    21653,
+                    20486
+                ]
+            },
+            {
+                "id": 1567017,
+                "time": {
+                    "secs": 2732,
+                    "label": "46"
+                },
+                "type": "free kick won",
+                "text": "Aaron Connolly (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    21653
+                ]
+            },
+            {
+                "id": 1567021,
+                "time": {
+                    "secs": 2732,
+                    "label": "46"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Gabriel Magalhães (Arsenal).",
+                "playerIds": [
+                    50234
+                ]
+            },
+            {
+                "id": 1567019,
+                "time": {
+                    "secs": 2802,
+                    "label": "47"
+                },
+                "type": "offside",
+                "text": "Offside, Arsenal. Gabriel Magalhães tries a through ball, but Pierre-Emerick Aubameyang is caught offside.",
+                "playerIds": [
+                    50234
+                ]
+            },
+            {
+                "id": 1567025,
+                "time": {
+                    "secs": 2895,
+                    "label": "49"
+                },
+                "type": "goal",
+                "text": "Goal!  Arsenal 1, Brighton and Hove Albion 0. Nicolas Pépé (Arsenal) right footed shot from the centre of the box to the bottom right corner. Assisted by Calum Chambers with a cross.",
+                "playerIds": [
+                    50252,
+                    4620
+                ]
+            },
+            {
+                "id": 1567040,
+                "time": {
+                    "secs": 2993,
+                    "label": "50"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Thomas Partey (Arsenal).",
+                "playerIds": [
+                    4936
+                ]
+            },
+            {
+                "id": 1567041,
+                "time": {
+                    "secs": 2993,
+                    "label": "50"
+                },
+                "type": "free kick won",
+                "text": "Yves Bissouma (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    50245
+                ]
+            },
+            {
+                "id": 1567047,
+                "time": {
+                    "secs": 3030,
+                    "label": "51"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Aaron Connolly (Brighton and Hove Albion) right footed shot from the left side of the box misses to the right.",
+                "playerIds": [
+                    21653
+                ]
+            },
+            {
+                "id": 1567048,
+                "time": {
+                    "secs": 3073,
+                    "label": "52"
+                },
+                "type": "free kick won",
+                "text": "Granit Xhaka (Arsenal) wins a free kick in the defensive half.",
+                "playerIds": [
+                    12136
+                ]
+            },
+            {
+                "id": 1567049,
+                "time": {
+                    "secs": 3073,
+                    "label": "52"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Alexis Mac Allister (Brighton and Hove Albion).",
+                "playerIds": [
+                    63633
+                ]
+            },
+            {
+                "id": 1567098,
+                "time": {
+                    "secs": 3360,
+                    "label": "57"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Yves Bissouma (Brighton and Hove Albion) right footed shot from outside the box misses to the left.",
+                "playerIds": [
+                    50245
+                ]
+            },
+            {
+                "id": 1567108,
+                "time": {
+                    "secs": 3420,
+                    "label": "58"
+                },
+                "type": "free kick won",
+                "text": "Aaron Connolly (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    21653
+                ]
+            },
+            {
+                "id": 1567109,
+                "time": {
+                    "secs": 3420,
+                    "label": "58"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Rob Holding (Arsenal).",
+                "playerIds": [
+                    11575
+                ]
+            },
+            {
+                "id": 1567118,
+                "time": {
+                    "secs": 3476,
+                    "label": "58"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Ben White.",
+                "playerIds": [
+                    14548
+                ]
+            },
+            {
+                "id": 1567128,
+                "time": {
+                    "secs": 3513,
+                    "label": "59"
+                },
+                "type": "free kick won",
+                "text": "Aaron Connolly (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    21653
+                ]
+            },
+            {
+                "id": 1567129,
+                "time": {
+                    "secs": 3513,
+                    "label": "59"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Nicolas Pépé (Arsenal).",
+                "playerIds": [
+                    50252
+                ]
+            },
+            {
+                "id": 1567138,
+                "time": {
+                    "secs": 3582,
+                    "label": "60"
+                },
+                "type": "goal",
+                "text": "Goal!  Arsenal 2, Brighton and Hove Albion 0. Nicolas Pépé (Arsenal) left footed shot from the right side of the box to the bottom left corner. Assisted by Martin Ødegaard.",
+                "playerIds": [
+                    50252,
+                    11419
+                ]
+            },
+            {
+                "id": 1567177,
+                "time": {
+                    "secs": 3868,
+                    "label": "65"
+                },
+                "type": "attempt saved",
+                "text": "Attempt saved. Jakub Moder (Brighton and Hove Albion) right footed shot from outside the box is saved in the bottom left corner. Assisted by Aaron Connolly.",
+                "playerIds": [
+                    108751,
+                    21653
+                ]
+            },
+            {
+                "id": 1567196,
+                "time": {
+                    "secs": 3906,
+                    "label": "66"
+                },
+                "type": "substitution",
+                "text": "Substitution, Brighton and Hove Albion. Steven Alzate replaces Alexis Mac Allister.",
+                "playerIds": [
+                    20723,
+                    63633
+                ]
+            },
+            {
+                "id": 1567207,
+                "time": {
+                    "secs": 4015,
+                    "label": "67"
+                },
+                "type": "free kick won",
+                "text": "Kieran Tierney (Arsenal) wins a free kick in the defensive half.",
+                "playerIds": [
+                    12185
+                ]
+            },
+            {
+                "id": 1567208,
+                "time": {
+                    "secs": 4015,
+                    "label": "67"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Jakub Moder (Brighton and Hove Albion).",
+                "playerIds": [
+                    108751
+                ]
+            },
+            {
+                "id": 1567231,
+                "time": {
+                    "secs": 4078,
+                    "label": "68"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Pierre-Emerick Aubameyang (Arsenal) left footed shot from the left side of the box misses to the left. Assisted by Emile Smith Rowe following a fast break.",
+                "playerIds": [
+                    5110,
+                    14445
+                ]
+            },
+            {
+                "id": 1567232,
+                "time": {
+                    "secs": 4113,
+                    "label": "69"
+                },
+                "type": "miss",
+                "text": "Attempt missed. Nicolas Pépé (Arsenal) left footed shot from outside the box misses to the right. Assisted by Pierre-Emerick Aubameyang.",
+                "playerIds": [
+                    50252,
+                    5110
+                ]
+            },
+            {
+                "id": 1567260,
+                "time": {
+                    "secs": 4338,
+                    "label": "73"
+                },
+                "type": "post",
+                "text": "Thomas Partey (Arsenal) hits the bar with a right footed shot from the centre of the box. Assisted by Granit Xhaka.",
+                "playerIds": [
+                    4936,
+                    12136
+                ]
+            },
+            {
+                "id": 1567273,
+                "time": {
+                    "secs": 4364,
+                    "label": "73"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Adam Webster.",
+                "playerIds": [
+                    9426
+                ]
+            },
+            {
+                "id": 1567272,
+                "time": {
+                    "secs": 4399,
+                    "label": "74"
+                },
+                "type": "substitution",
+                "text": "Substitution, Arsenal. Bukayo Saka replaces Emile Smith Rowe.",
+                "playerIds": [
+                    49481,
+                    14445
+                ]
+            },
+            {
+                "id": 1567271,
+                "time": {
+                    "secs": 4432,
+                    "label": "74"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Gabriel Magalhães (Arsenal).",
+                "playerIds": [
+                    50234
+                ]
+            },
+            {
+                "id": 1567274,
+                "time": {
+                    "secs": 4432,
+                    "label": "74"
+                },
+                "type": "free kick won",
+                "text": "Pascal Groß (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    22542
+                ]
+            },
+            {
+                "id": 1567291,
+                "time": {
+                    "secs": 4571,
+                    "label": "77"
+                },
+                "type": "corner",
+                "text": "Corner,  Arsenal. Conceded by Ben White.",
+                "playerIds": [
+                    14548
+                ]
+            },
+            {
+                "id": 1567302,
+                "time": {
+                    "secs": 4681,
+                    "label": "79"
+                },
+                "type": "corner",
+                "text": "Corner,  Brighton and Hove Albion. Conceded by Rob Holding.",
+                "playerIds": [
+                    11575
+                ]
+            },
+            {
+                "id": 1567325,
+                "time": {
+                    "secs": 4712,
+                    "label": "79"
+                },
+                "type": "substitution",
+                "text": "Substitution, Arsenal. Alexandre Lacazette replaces Pierre-Emerick Aubameyang.",
+                "playerIds": [
+                    6899,
+                    5110
+                ]
+            },
+            {
+                "id": 1567328,
+                "time": {
+                    "secs": 4741,
+                    "label": "80"
+                },
+                "type": "corner",
+                "text": "Corner,  Brighton and Hove Albion. Conceded by Rob Holding.",
+                "playerIds": [
+                    11575
+                ]
+            },
+            {
+                "id": 1567326,
+                "time": {
+                    "secs": 4773,
+                    "label": "80"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Steven Alzate (Brighton and Hove Albion).",
+                "playerIds": [
+                    20723
+                ]
+            },
+            {
+                "id": 1567327,
+                "time": {
+                    "secs": 4773,
+                    "label": "80"
+                },
+                "type": "free kick won",
+                "text": "Bukayo Saka (Arsenal) wins a free kick in the defensive half.",
+                "playerIds": [
+                    49481
+                ]
+            },
+            {
+                "id": 1567361,
+                "time": {
+                    "secs": 4991,
+                    "label": "84"
+                },
+                "type": "free kick won",
+                "text": "Lewis Dunk (Brighton and Hove Albion) wins a free kick in the defensive half.",
+                "playerIds": [
+                    8163
+                ]
+            },
+            {
+                "id": 1567362,
+                "time": {
+                    "secs": 4991,
+                    "label": "84"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Bukayo Saka (Arsenal).",
+                "playerIds": [
+                    49481
+                ]
+            },
+            {
+                "id": 1567381,
+                "time": {
+                    "secs": 5083,
+                    "label": "85"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Bukayo Saka (Arsenal).",
+                "playerIds": [
+                    49481
+                ]
+            },
+            {
+                "id": 1567382,
+                "time": {
+                    "secs": 5083,
+                    "label": "85"
+                },
+                "type": "free kick won",
+                "text": "Yves Bissouma (Brighton and Hove Albion) wins a free kick in the attacking half.",
+                "playerIds": [
+                    50245
+                ]
+            },
+            {
+                "id": 1567393,
+                "time": {
+                    "secs": 5121,
+                    "label": "86"
+                },
+                "type": "substitution",
+                "text": "Substitution, Arsenal. Gabriel Martinelli replaces Martin Ødegaard.",
+                "playerIds": [
+                    66104,
+                    11419
+                ]
+            },
+            {
+                "id": 1567412,
+                "time": {
+                    "secs": 5304,
+                    "label": "89"
+                },
+                "type": "free kick won",
+                "text": "Nicolas Pépé (Arsenal) wins a free kick in the defensive half.",
+                "playerIds": [
+                    50252
+                ]
+            },
+            {
+                "id": 1567413,
+                "time": {
+                    "secs": 5304,
+                    "label": "89"
+                },
+                "type": "free kick lost",
+                "text": "Foul by Adam Lallana (Brighton and Hove Albion).",
+                "playerIds": [
+                    4618
+                ]
+            },
+            {
+                "id": 1567446,
+                "time": {
+                    "secs": 5525,
+                    "label": "90 +3"
+                },
+                "type": "end 2",
+                "text": "Second Half ends, Arsenal 2, Brighton and Hove Albion 0."
+            },
+            {
+                "id": 1567450,
+                "time": {
+                    "secs": 0,
+                    "label": "01"
+                },
+                "type": "end 14",
+                "text": "Match ends, Arsenal 2, Brighton and Hove Albion 0."
+            }
+        ]
+    }
+}
