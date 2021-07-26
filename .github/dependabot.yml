@@ -1,0 +1,31 @@
+version: 2
+updates:
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    labels:
+      - "dependencies"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "Cyb3r-Jak3"
+    commit-message:
+      prefix: "Action Update"
+    reviewers:
+      - "Cyb3r-Jak3"
+
+  # Maintain dependencies for python
+  - package-ecosystem: pip
+    directory: "/"
+    labels:
+        - "dependencies"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "Cyb3r-Jak3"
+    commit-message:
+      prefix: "Pip Update"
+    reviewers:
+      - "Cyb3r-Jak3"
+    open-pull-requests-limit: 3
