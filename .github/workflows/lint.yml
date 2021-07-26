@@ -73,3 +73,8 @@ jobs:
 
     - name: Build
       run: make check-dist
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ${{ runner.os }}-${{ matrix.python-version }}
+        path: dist/
