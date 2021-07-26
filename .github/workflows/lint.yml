@@ -8,7 +8,7 @@ on:
       - '**'
     paths:
       - '**.py'
-      - ".github/workflows/python.yml"
+      - ".github/workflows/lint.yml"
       - "requirements.txt"
       - "requirements-dev.txt"
   pull_request:
