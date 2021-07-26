@@ -1,0 +1,74 @@
+name: Python Checking
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+    paths:
+      - '**.py'
+      - ".github/workflows/python.yml"
+      - "requirements.txt"
+      - "requirements-dev.txt"
+  pull_request:
+    branches:
+      - main
+
+
+jobs:
+  Lint:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: [3.6, 3.7, 3.8, 3.9]
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Linux Cache
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'Linux')
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('**/requirements.txt', '**/requirements-dev.txts') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-${{ matrix.python-version }}
+
+    - name: MacOS Cache
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'macOS')
+      with:
+        path: ~/Library/Caches/pip
+        key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('**/requirements.txt', '**/requirements-dev.txts') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-${{ matrix.python-version }}
+
+    - name: Windows Cache
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'Windows')
+      with:
+        path: ~\AppData\Local\pip\Cache
+        key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('**/requirements.txt', '**/requirements-dev.txts') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-${{ matrix.python-version }}
+
+    - name: Install Dependencies
+      run: |
+        pip install --upgrade pip wheel
+        pip install . -r requirements-dev.txt
+
+    - name: Lint
+      run: make lint
+
+    - name: Test
+      run: make test
+
+    - name: Build
+      run: make check-dist
