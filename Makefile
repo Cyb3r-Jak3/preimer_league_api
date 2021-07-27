@@ -23,6 +23,8 @@ clean-pyc:
 	find . -name '*~' -exec $(RM) {} +
 
 build:
+	pip install --quiet wheel twine -r requirements.txt
+	pip install --quiet .
 	python setup.py sdist bdist_wheel
 
 check-dist:
