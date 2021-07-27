@@ -29,12 +29,16 @@ class APIClient:
         generate_stats: bool = False,
     ) -> Player:
         """
+        Get a player by their ID
 
-        :param generate_stats:
-        :param player_id:
-        :param comp_id:
-        :param season_id:
-        :return:
+        :param generate_stats: Generate the stats for the player. Defaults to false
+        :type generate_stats: bool
+        :param player_id: ID of the player
+        :type player_id: int
+        :param comp_id: Competition ID of the competition to get stats for
+        :param season_id: Season ID to get stats for. You can use this without competition ID
+        :return: The player
+        :rtype: Player
         """
         return Player(
             self._get(
@@ -55,8 +59,10 @@ class APIClient:
         :param league_name:
         :type league_name: str
         :return: Possible matches. Max length of 30
+
         Todo:
         Implement pagination fo results
+
         """
         return [
             SearchPlayer(x["response"])
@@ -74,10 +80,15 @@ class APIClient:
 
     def get_fixture(self, fixture_id: int, language_code: str = "EN") -> FixtureResult:
         """
+        Get a fixture by ID
 
-        :param fixture_id:
-        :param language_code:
-        :return:
+        :param fixture_id: Id of the fixture to get
+        :type fixture_id: int
+        :param language_code: Language code to get.
+            Note: Changing to anything but EN seems to leave the Fixture events blank
+        :type language_code: str
+        :return: Fixture
+        :rtype: FixtureResult
         """
         return FixtureResult(
             self._get(
@@ -88,9 +99,12 @@ class APIClient:
 
     def get_teams_in_season(self, season_id: int) -> List[Team]:
         """
+        Get all the teams that are taking part in a season
 
-        :param season_id:
-        :return:
+        :param season_id: Season ID to get
+        :type season_id: int
+        :return: List of teams for the season
+        :rtype: List[Team]
         """
         return [
             Team({"team": x})

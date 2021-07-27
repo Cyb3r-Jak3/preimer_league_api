@@ -3,6 +3,9 @@ Fixture
 
 Fixture is a game that has been played. Has the information for both teams, where it was played and what happened during the match
 
+Class
+------
+
 .. code-block::
 
     client = APIClient()

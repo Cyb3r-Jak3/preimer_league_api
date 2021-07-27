@@ -69,12 +69,20 @@ jobs:
       run: make lint
 
     - name: Test
-      run: make test
+      run: |
+        make test
+#        For some reason all coverage isn't reported the first time
+        make test
 
     - name: Build
       run: make check-dist
 
+    - name: Docs Check
+      run: make docs
+
     - uses: actions/upload-artifact@v2
       with:
         name: ${{ runner.os }}-${{ matrix.python-version }}
-        path: dist/
+        path: |
+          dist/
+          docs/_build/html

@@ -1,0 +1,659 @@
+{
+  "compSeason": {
+    "label": "2021/22",
+    "competition": {
+      "abbreviation": "EN_PR",
+      "description": "Premier League",
+      "level": "SEN",
+      "source": "",
+      "id": 1
+    },
+    "id": 418
+  },
+  "gameweeks": [
+    {
+      "gameweek": 1,
+      "from": {
+        "completeness": 3,
+        "millis": 1628881200000,
+        "label": "Fri 13 Aug 2021, 20:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1629041400000,
+        "label": "Sun 15 Aug 2021, 16:30 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6662
+    },
+    {
+      "gameweek": 2,
+      "from": {
+        "completeness": 3,
+        "millis": 1629545400000,
+        "label": "Sat 21 Aug 2021, 12:30 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1629745200000,
+        "label": "Mon 23 Aug 2021, 20:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6663
+    },
+    {
+      "gameweek": 3,
+      "from": {
+        "completeness": 3,
+        "millis": 1630150200000,
+        "label": "Sat 28 Aug 2021, 12:30 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1630251000000,
+        "label": "Sun 29 Aug 2021, 16:30 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6664
+    },
+    {
+      "gameweek": 4,
+      "from": {
+        "completeness": 3,
+        "millis": 1631359800000,
+        "label": "Sat 11 Sep 2021, 12:30 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1631559600000,
+        "label": "Mon 13 Sep 2021, 20:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6665
+    },
+    {
+      "gameweek": 5,
+      "from": {
+        "completeness": 3,
+        "millis": 1631905200000,
+        "label": "Fri 17 Sep 2021, 20:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1632065400000,
+        "label": "Sun 19 Sep 2021, 16:30 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6666
+    },
+    {
+      "gameweek": 6,
+      "from": {
+        "completeness": 3,
+        "millis": 1632569400000,
+        "label": "Sat 25 Sep 2021, 12:30 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1632769200000,
+        "label": "Mon 27 Sep 2021, 20:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6667
+    },
+    {
+      "gameweek": 7,
+      "from": {
+        "completeness": 3,
+        "millis": 1633183200000,
+        "label": "Sat 2 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1633183200000,
+        "label": "Sat 2 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6668
+    },
+    {
+      "gameweek": 8,
+      "from": {
+        "completeness": 3,
+        "millis": 1634392800000,
+        "label": "Sat 16 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1634392800000,
+        "label": "Sat 16 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6669
+    },
+    {
+      "gameweek": 9,
+      "from": {
+        "completeness": 3,
+        "millis": 1634997600000,
+        "label": "Sat 23 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1634997600000,
+        "label": "Sat 23 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6670
+    },
+    {
+      "gameweek": 10,
+      "from": {
+        "completeness": 3,
+        "millis": 1635602400000,
+        "label": "Sat 30 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1635602400000,
+        "label": "Sat 30 Oct 2021, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6671
+    },
+    {
+      "gameweek": 11,
+      "from": {
+        "completeness": 3,
+        "millis": 1636210800000,
+        "label": "Sat 6 Nov 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1636210800000,
+        "label": "Sat 6 Nov 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6672
+    },
+    {
+      "gameweek": 12,
+      "from": {
+        "completeness": 3,
+        "millis": 1637420400000,
+        "label": "Sat 20 Nov 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1637420400000,
+        "label": "Sat 20 Nov 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6673
+    },
+    {
+      "gameweek": 13,
+      "from": {
+        "completeness": 3,
+        "millis": 1638025200000,
+        "label": "Sat 27 Nov 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1638025200000,
+        "label": "Sat 27 Nov 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6674
+    },
+    {
+      "gameweek": 14,
+      "from": {
+        "completeness": 3,
+        "millis": 1638301500000,
+        "label": "Tue 30 Nov 2021, 19:45 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1638387900000,
+        "label": "Wed 1 Dec 2021, 19:45 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6675
+    },
+    {
+      "gameweek": 15,
+      "from": {
+        "completeness": 3,
+        "millis": 1638630000000,
+        "label": "Sat 4 Dec 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1638630000000,
+        "label": "Sat 4 Dec 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6676
+    },
+    {
+      "gameweek": 16,
+      "from": {
+        "completeness": 3,
+        "millis": 1639234800000,
+        "label": "Sat 11 Dec 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1639234800000,
+        "label": "Sat 11 Dec 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6677
+    },
+    {
+      "gameweek": 17,
+      "from": {
+        "completeness": 3,
+        "millis": 1639511100000,
+        "label": "Tue 14 Dec 2021, 19:45 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1639598400000,
+        "label": "Wed 15 Dec 2021, 20:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6678
+    },
+    {
+      "gameweek": 18,
+      "from": {
+        "completeness": 3,
+        "millis": 1639839600000,
+        "label": "Sat 18 Dec 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1639839600000,
+        "label": "Sat 18 Dec 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6679
+    },
+    {
+      "gameweek": 19,
+      "from": {
+        "completeness": 3,
+        "millis": 1640530800000,
+        "label": "Sun 26 Dec 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1640530800000,
+        "label": "Sun 26 Dec 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6680
+    },
+    {
+      "gameweek": 20,
+      "from": {
+        "completeness": 3,
+        "millis": 1640703600000,
+        "label": "Tue 28 Dec 2021, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1640703600000,
+        "label": "Tue 28 Dec 2021, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6681
+    },
+    {
+      "gameweek": 21,
+      "from": {
+        "completeness": 3,
+        "millis": 1641049200000,
+        "label": "Sat 1 Jan 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1641049200000,
+        "label": "Sat 1 Jan 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6682
+    },
+    {
+      "gameweek": 22,
+      "from": {
+        "completeness": 3,
+        "millis": 1642258800000,
+        "label": "Sat 15 Jan 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1642258800000,
+        "label": "Sat 15 Jan 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6683
+    },
+    {
+      "gameweek": 23,
+      "from": {
+        "completeness": 3,
+        "millis": 1642863600000,
+        "label": "Sat 22 Jan 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1642863600000,
+        "label": "Sat 22 Jan 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6684
+    },
+    {
+      "gameweek": 24,
+      "from": {
+        "completeness": 3,
+        "millis": 1644349500000,
+        "label": "Tue 8 Feb 2022, 19:45 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1644436800000,
+        "label": "Wed 9 Feb 2022, 20:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6685
+    },
+    {
+      "gameweek": 25,
+      "from": {
+        "completeness": 3,
+        "millis": 1644678000000,
+        "label": "Sat 12 Feb 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1644678000000,
+        "label": "Sat 12 Feb 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6686
+    },
+    {
+      "gameweek": 26,
+      "from": {
+        "completeness": 3,
+        "millis": 1645282800000,
+        "label": "Sat 19 Feb 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1645282800000,
+        "label": "Sat 19 Feb 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6687
+    },
+    {
+      "gameweek": 27,
+      "from": {
+        "completeness": 3,
+        "millis": 1645887600000,
+        "label": "Sat 26 Feb 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1645887600000,
+        "label": "Sat 26 Feb 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6688
+    },
+    {
+      "gameweek": 28,
+      "from": {
+        "completeness": 3,
+        "millis": 1646492400000,
+        "label": "Sat 5 Mar 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1646492400000,
+        "label": "Sat 5 Mar 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6689
+    },
+    {
+      "gameweek": 29,
+      "from": {
+        "completeness": 3,
+        "millis": 1647097200000,
+        "label": "Sat 12 Mar 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1647097200000,
+        "label": "Sat 12 Mar 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6690
+    },
+    {
+      "gameweek": 30,
+      "from": {
+        "completeness": 3,
+        "millis": 1647702000000,
+        "label": "Sat 19 Mar 2022, 15:00 GMT"
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1647702000000,
+        "label": "Sat 19 Mar 2022, 15:00 GMT"
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6691
+    },
+    {
+      "gameweek": 31,
+      "from": {
+        "completeness": 3,
+        "millis": 1648908000000,
+        "label": "Sat 2 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1648908000000,
+        "label": "Sat 2 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6692
+    },
+    {
+      "gameweek": 32,
+      "from": {
+        "completeness": 3,
+        "millis": 1649512800000,
+        "label": "Sat 9 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1649512800000,
+        "label": "Sat 9 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6693
+    },
+    {
+      "gameweek": 33,
+      "from": {
+        "completeness": 3,
+        "millis": 1650117600000,
+        "label": "Sat 16 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1650117600000,
+        "label": "Sat 16 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6694
+    },
+    {
+      "gameweek": 34,
+      "from": {
+        "completeness": 3,
+        "millis": 1650722400000,
+        "label": "Sat 23 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1650722400000,
+        "label": "Sat 23 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6695
+    },
+    {
+      "gameweek": 35,
+      "from": {
+        "completeness": 3,
+        "millis": 1651327200000,
+        "label": "Sat 30 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1651327200000,
+        "label": "Sat 30 Apr 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6696
+    },
+    {
+      "gameweek": 36,
+      "from": {
+        "completeness": 3,
+        "millis": 1651932000000,
+        "label": "Sat 7 May 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1651932000000,
+        "label": "Sat 7 May 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6697
+    },
+    {
+      "gameweek": 37,
+      "from": {
+        "completeness": 3,
+        "millis": 1652623200000,
+        "label": "Sun 15 May 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1652623200000,
+        "label": "Sun 15 May 2022, 15:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6698
+    },
+    {
+      "gameweek": 38,
+      "from": {
+        "completeness": 3,
+        "millis": 1653231600000,
+        "label": "Sun 22 May 2022, 16:00 BST",
+        "gmtOffset": 1
+      },
+      "until": {
+        "completeness": 3,
+        "millis": 1653231600000,
+        "label": "Sun 22 May 2022, 16:00 BST",
+        "gmtOffset": 1
+      },
+      "matches": 10,
+      "status": "U",
+      "id": 6699
+    }
+  ]
+}
