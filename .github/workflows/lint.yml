@@ -8,7 +8,7 @@ on:
       - '**'
     paths:
       - '**.py'
-      - ".github/workflows/python.yml"
+      - ".github/workflows/lint.yml"
       - "requirements.txt"
       - "requirements-dev.txt"
   pull_request:
@@ -73,3 +73,13 @@ jobs:
 
     - name: Build
       run: make check-dist
+
+    - name: Docs Check
+      run: make docs
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ${{ runner.os }}-${{ matrix.python-version }}
+        path: |
+          dist/
+          docs/_build/html

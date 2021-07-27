@@ -1,0 +1,128 @@
+{
+    "hits": {
+        "cursor": null,
+        "found": 1,
+        "hit": [
+            {
+                "id": "PLAYER_49481",
+                "contentType": "FOOTBALL_PERSON",
+                "response": {
+                    "id": 49481,
+                    "altIds": {
+                        "opta": "p223340"
+                    },
+                    "metadata": null,
+                    "birth": {
+                        "date": {
+                            "millis": 999648000000,
+                            "label": "5 September 2001"
+                        },
+                        "country": {
+                            "isoCode": "GB-ENG",
+                            "country": "England",
+                            "demonym": "English"
+                        },
+                        "place": "London"
+                    },
+                    "age": "19 years 311 days",
+                    "name": {
+                        "display": "Bukayo Saka",
+                        "first": "Bukayo",
+                        "middle": null,
+                        "last": "Saka"
+                    },
+                    "playerId": 165569,
+                    "info": {
+                        "position": "M",
+                        "shirtNum": 7,
+                        "positionInfo": "Left Winger",
+                        "loan": false
+                    },
+                    "debut": {
+                        "millis": 1507939200000,
+                        "label": "14 October 2017"
+                    },
+                    "nationalTeam": {
+                        "isoCode": "GB-ENG",
+                        "country": "England",
+                        "demonym": "English"
+                    },
+                    "height": 178,
+                    "currentTeam": {
+                        "id": 1,
+                        "altIds": {
+                            "opta": "t3"
+                        },
+                        "metadata": null,
+                        "name": "Arsenal",
+                        "club": {
+                            "id": 1,
+                            "altIds": null,
+                            "metadata": null,
+                            "name": "Arsenal",
+                            "shortName": "Arsenal",
+                            "abbr": "ARS",
+                            "shortAbbr": null,
+                            "founded": null,
+                            "country": null,
+                            "city": null,
+                            "postalCode": null,
+                            "source": null,
+                            "teams": null
+                        },
+                        "teamType": "FIRST",
+                        "grounds": null,
+                        "shortName": "Arsenal",
+                        "awards": null,
+                        "source": null
+                    },
+                    "previousTeam": {
+                        "id": 385,
+                        "altIds": {
+                            "opta": "t7594"
+                        },
+                        "metadata": null,
+                        "name": "Arsenal",
+                        "club": {
+                            "id": 1,
+                            "altIds": null,
+                            "metadata": null,
+                            "name": "Arsenal",
+                            "shortName": "Arsenal",
+                            "abbr": "ARS",
+                            "shortAbbr": null,
+                            "founded": null,
+                            "country": null,
+                            "city": null,
+                            "postalCode": null,
+                            "source": null,
+                            "teams": null
+                        },
+                        "teamType": "U21",
+                        "grounds": null,
+                        "shortName": "Arsenal",
+                        "awards": null,
+                        "source": null
+                    },
+                    "weight": 65,
+                    "latestPosition": "MIDFIELDER",
+                    "appearances": 117,
+                    "goals": 23,
+                    "assists": 30,
+                    "tackles": 64,
+                    "shots": 115,
+                    "keyPasses": 60,
+                    "cleanSheets": 13,
+                    "saves": null,
+                    "goalsConceded": null,
+                    "awards": null,
+                    "joinDate": null,
+                    "leaveDate": null,
+                    "teamHistory": null,
+                    "active": null
+                }
+            }
+        ],
+        "start": 0
+    }
+}

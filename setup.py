@@ -9,7 +9,7 @@ readme = open("README.md").read()
 setup(
         name="premier_league_api",
         version=__version__,
-        description="Repo Template for creating a Python library in GitHub",
+        description="API for pulling Premier League Data",
         long_description=readme,
         long_description_content_type="text/markdown",
         author="Cyber_Jake",
@@ -27,10 +27,10 @@ setup(
         tests_require=dev_reqs[1:],
         install_requires=install_reqs,
         license="MPL 2.0",
-        zip_safe=False,
-        keywords="premier_league, REST, api client, REST API",
+        zip_safe=True,
+        keywords="premier league, REST, api client, REST API",
         classifiers=[
-            "Development Status :: 5 - Production/Stable",
+            "Development Status :: 4 - Beta",
             "Intended Audience :: Developers",
             "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
             "Natural Language :: English",

@@ -89,3 +89,43 @@ class Country:
         :rtype: str
         """
         return self._data["demonym"]
+
+
+class MatchTime:
+    """Time of a match. Used for start and end"""
+
+    def __init__(self, data: dict):
+        self._data = data
+
+    @cached_property
+    def completeness(self) -> int:
+        """
+        :return: Completeness of the match.
+            Uncertain as to the full range of values and what they mean
+        :rtype: int
+        """
+        return self._data["completeness"]
+
+    @cached_property
+    def label(self) -> str:
+        """
+        :return: Label of time
+        :rtype: str
+        """
+        return self._data["label"]
+
+    @cached_property
+    def epoch(self) -> int:
+        """
+        :return: Epoch time in milliseconds
+        :rtype: int
+        """
+        return self._data["millis"]
+
+    @cached_property
+    def gmtOffset(self) -> int:
+        """
+        :return: GMT offset of time
+        :rtype: int
+        """
+        return int(self._data["gmtOffset"])

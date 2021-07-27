@@ -5,6 +5,9 @@ A gameweek is a list of ``GameWeekFixture`` s. A couple of difference between a 
     - ``GameWeekFixture`` has a list of goals scored.
     - ``GameWeekFixture`` does **not** have a list of FixtureEvents. Need to use the id to get the full fixture
 
+Class
+------
+
 .. code-block::
 
     client = APIClient()

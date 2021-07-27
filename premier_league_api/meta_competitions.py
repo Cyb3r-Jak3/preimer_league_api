@@ -37,6 +37,7 @@ class {abbreviation}:
 def download_competitions() -> List["COMPETITION_TEXT"]:
     """
     Downloads and returns a list of filled out COMPETITION Text
+
     :return: List of filled out text
     :rtype: List[COMPETITION_TEXT]
     """
@@ -47,7 +48,9 @@ def download_competitions() -> List["COMPETITION_TEXT"]:
     )
     if results.json()["pageInfo"]["numPages"] != 1:
         warnings.warn(
-            "pageSize did not get all competitions. Please open an issue on Github"
+            "pageSize did not get all competitions."
+            "Please open an issue on Github:"
+            "https://github.com/Cyb3r-Jak3/preimer_league_api/issues/new/choose"
         )
     results.raise_for_status()
     return [

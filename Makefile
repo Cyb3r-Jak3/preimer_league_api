@@ -39,6 +39,7 @@ lint:
 
 test:
 	py.test --cov premier_league_api tests/ -vv
+	black premier_league_api
 
 gen_comps:
 	python -c "import premier_league_api; premier_league_api.create_competitions_file()"

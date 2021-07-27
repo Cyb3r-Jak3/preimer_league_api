@@ -22,3 +22,5 @@ def test_comps():
         assert isinstance(comp.abbreviation, str)
         assert isinstance(comp.seasons, dict)
         assert callable(comp.get_season_by_label)
+        first_key = list(comp.seasons)[0]
+        assert comp.get_season_by_label(first_key)
