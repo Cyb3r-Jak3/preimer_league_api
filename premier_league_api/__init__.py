@@ -4,6 +4,6 @@ from .meta_competitions import create_competitions_file
 from .errors import EmptyResponse
 from .competitions import *
 
-__version__ = "0.0.1"
+__version__ = "1.0.0"
 
 __all__ = ["APIClient", "__version__", "EmptyResponse", "create_competitions_file"]
