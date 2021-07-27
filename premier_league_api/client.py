@@ -61,7 +61,7 @@ class APIClient:
         :return: Possible matches. Max length of 30
 
         Todo:
-        Implement pagination fo results
+        Implement pagination for results
 
         """
         return [
@@ -125,7 +125,8 @@ class APIClient:
 
         :param season_id: Id of the season
         :type season_id: int
-        :return:
+        :return: Gameweeks in the season
+        :rtype: List[GameWeeks]
         """
         return [
             GameWeeks(x)
@@ -147,7 +148,8 @@ class APIClient:
         :type gameweek: int
 
         :param matches_per_week: How many matches there are per game week.
-            It should be equal to half the amount of teams. Elimination tornements will be tricky
+            It should be equal to half the amount of teams. Elimination tournaments will be tricky
+        :type matches_per_week: int
 
         :return: List of matches
         :rtype: List[GameWeekFixture]

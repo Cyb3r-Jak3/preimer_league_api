@@ -100,7 +100,8 @@ class MatchTime:
     @cached_property
     def completeness(self) -> int:
         """
-        :return: Completeness of the match. Uncertain as to the full range of values and what they mean
+        :return: Completeness of the match.
+            Uncertain as to the full range of values and what they mean
         :rtype: int
         """
         return self._data["completeness"]

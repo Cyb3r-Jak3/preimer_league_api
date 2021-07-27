@@ -37,6 +37,7 @@ class {abbreviation}:
 def download_competitions() -> List["COMPETITION_TEXT"]:
     """
     Downloads and returns a list of filled out COMPETITION Text
+
     :return: List of filled out text
     :rtype: List[COMPETITION_TEXT]
     """
