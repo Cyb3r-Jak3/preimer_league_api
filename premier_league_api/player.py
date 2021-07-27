@@ -51,6 +51,12 @@ class BasePlayer:
         self._data = data
         self.id = data["id"]
 
+    def __str__(self) -> str:
+        return self.fullName
+
+    def __repr__(self) -> str:
+        return self.fullName
+
     @cached_property
     def birthCountry(self) -> Country:
         """

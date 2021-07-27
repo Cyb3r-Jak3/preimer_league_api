@@ -19,7 +19,6 @@ Player stats
 
 If compSeasons is omitted then all seasons will be returned. Can also just do competition ID.
 
-:doc:`example json <./example/player_example>`
 
 Competitions
 --------------
@@ -28,7 +27,6 @@ Competitions
 
 Currently, at 77 competitions. If more are added then an increase in the pageSize will be needed
 
-:doc:`example json <./example/competition_example>`
 
 
 Competition Seasons
@@ -63,7 +61,6 @@ Fixture Information
 
 Returns the fixture information for a game. When changing the language it seems to omit the fixture events
 
-:doc:`example json <./example/fixture_example>`
 
 Gameweek
 --------
@@ -76,6 +73,6 @@ There is no way to specifically get a game week. The best way I found was to set
 Gameweeks
 ---------
 
-``https://footballapi.pulselive.com/football/compseasons/{Season ID/gameweeks``
+``https://footballapi.pulselive.com/football/compseasons/{Season ID}/gameweeks``
 
-Gets a list of all the gamesweeks for a season
+Gets a list of all the gameweeks for a season

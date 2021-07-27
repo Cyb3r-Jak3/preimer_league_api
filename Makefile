@@ -39,7 +39,6 @@ lint:
 
 test:
 	py.test --cov premier_league_api tests/ -vv
-	# New competitions file is not in correct format
 	black premier_league_api
 
 gen_comps:

@@ -22,6 +22,13 @@ Player
 .. literalinclude:: ./example_data/player.json
    :language: json
 
+
+SearchPlayer
+------------
+
+.. literalinclude:: ./example_data/search_player.json
+   :language: json
+
 Gameweeks
 ----------
 

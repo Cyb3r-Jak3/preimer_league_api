@@ -19,6 +19,7 @@ Premier League API is an **unofficial** API client to get Premier League stats f
    client/players.rst
    client/fixture.rst
    client/gameweek.rst
+   client/gameweeks.rst
 
 .. toctree::
    :caption: Advanced Usage

@@ -2,7 +2,7 @@
 from typing import List
 import requests
 from .player import Player, SearchPlayer
-from .gameweek import GameWeekFixture
+from .gameweek import GameWeekFixture, GameWeeks
 from .fixture import FixtureResult
 from .shared import Team
 from .errors import EmptyResponse
@@ -117,6 +117,21 @@ class APIClient:
                     "page": 0,
                 },
             )["content"]
+        ]
+
+    def get_gameweeks(self, season_id: int) -> List[GameWeeks]:
+        """
+        Get gameweeks for a season
+
+        :param season_id: Id of the season
+        :type season_id: int
+        :return:
+        """
+        return [
+            GameWeeks(x)
+            for x in self._get(url=f"{STANDARD_URL}compseasons/{season_id}/gameweeks")[
+                "gameweeks"
+            ]
         ]
 
     def get_gameweek(

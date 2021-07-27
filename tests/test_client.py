@@ -31,6 +31,8 @@ def test_player():
     assert example_player.fullName == "Tammy Abraham"
     assert example_player.firstName == "Tammy"
     assert example_player.lastName == "Abraham"
+    assert str(example_player) == repr(example_player) == example_player.fullName
+
     example_player.generate_stats()
     with pytest.warns(UserWarning, match="Attempt to generate stats again"):
         example_player.generate_stats()
@@ -38,6 +40,7 @@ def test_player():
     assert example_player.accurate_back_zone_pass.description == "Todo: accurate_back_zone_pass"
     assert example_player.accurate_back_zone_pass.additionalInfo == {}
     assert isinstance(example_player.accurate_back_zone_pass.value, int)
+
     example_player2 = client.get_player(13287, generate_stats=True)
     assert isinstance(example_player2, premier_league_api.player.Player)
 
@@ -134,6 +137,29 @@ def test_gameweek():
     assert example_goal.assist == 8980
     assert example_gameweek_fixture.goals[1].assist is None
     assert example_goal.description == "G"
+
+
+def test_gameweeks():
+    client = APIClient()
+    gameweeks = client.get_gameweeks(418)
+    assert len(gameweeks) == 38
+    example_gameweek = gameweeks[0]
+    assert example_gameweek.gameweek_num == 1
+    assert example_gameweek.id == 6662
+    assert example_gameweek.matches == 10
+    assert example_gameweek.status == "U"
+    assert str(example_gameweek) == "Gameweek 1 id: 6662"
+    assert repr(example_gameweek) == "Gameweek 1 id: 6662"
+
+    assert example_gameweek.start.epoch == 1628881200000
+    assert example_gameweek.start.label == "Fri 13 Aug 2021, 20:00 BST"
+    assert example_gameweek.start.gmtOffset == 1
+    assert example_gameweek.start.completeness == 3
+
+    assert example_gameweek.end.epoch == 1629041400000
+    assert example_gameweek.end.gmtOffset == 1
+    assert example_gameweek.end.label == "Sun 15 Aug 2021, 16:30 BST"
+    assert example_gameweek.end.completeness == 3
 
 
 def test_teams():
