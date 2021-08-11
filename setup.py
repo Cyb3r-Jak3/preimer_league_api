@@ -30,7 +30,7 @@ setup(
         zip_safe=True,
         keywords="premier league, REST, api client, REST API",
         classifiers=[
-            "Development Status :: 4 - Beta",
+            "Development Status :: 5 - Production/Stable",
             "Intended Audience :: Developers",
             "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
             "Natural Language :: English",
@@ -40,6 +40,7 @@ setup(
             "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
             "Programming Language :: Python :: 3.9",
+            "Programming Language :: Python :: 3.10",
             "Programming Language :: Python :: Implementation :: CPython"
         ],
 )

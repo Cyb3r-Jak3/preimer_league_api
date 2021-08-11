@@ -1,6 +1,6 @@
 # Premier League API
 
-[![Python Checking](https://github.com/Cyb3r-Jak3/preimer_league_api/actions/workflows/lint.yml/badge.svg)](https://github.com/Cyb3r-Jak3/preimer_league_api/actions/workflows/lint.yml) [![Documentation Status](https://readthedocs.org/projects/preimer-league-api/badge/?version=latest)](https://premier-league.docs.jwhite.network/en/latest/?badge=latest)
+[![Python Checking](https://github.com/Cyb3r-Jak3/preimer_league_api/actions/workflows/lint.yml/badge.svg)](https://github.com/Cyb3r-Jak3/preimer_league_api/actions/workflows/lint.yml) [![Documentation Status](https://readthedocs.org/projects/preimer-league-api/badge/?version=latest)](https://premier-league.docs.jwhite.network/en/latest/?badge=latest) ![PyPI](https://img.shields.io/pypi/v/premier-league-api) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/premier-league-api)
 
 An **unofficial** api client for pulling player and fixture data from the [Premier League](https://www.premierleague.com/)
 

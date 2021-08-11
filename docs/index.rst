@@ -9,6 +9,12 @@ Welcome to Premier League API's documentation!
   :target: https://premier-league.docs.jwhite.network/en/latest/?badge=latest
   :alt: Documentation Status
 
+.. image:: https://img.shields.io/pypi/v/premier-league-api
+   :alt: PyPI
+
+.. image:: https://img.shields.io/pypi/pyversions/premier-league-api
+   :alt: PyPI - Python Version
+
 Premier League API is an **unofficial** API client to get Premier League stats for players, fixtures and teams.
 
 
