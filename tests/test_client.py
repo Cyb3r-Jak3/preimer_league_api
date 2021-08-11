@@ -81,6 +81,7 @@ def test_fixtures():
     example_fixture = season_fixtures[0]
     assert example_fixture.id == 58898
     assert len(example_fixture.goals) == 3
+    client.get_fixture(example_fixture.id)
 
 
 def test_fixture():
