@@ -23,7 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: [3.6, 3.7, 3.8, 3.9]
+        python-version: [3.6, 3.7, 3.8, 3.9, 3.10.0-rc.1]
     steps:
     - uses: actions/checkout@v2
 
@@ -75,6 +75,7 @@ jobs:
       run: make check-dist
 
     - name: Docs Check
+      if: ${{ matrix.python-version != '3.10.0-rc.1' }}
       run: make docs
 
     - uses: actions/upload-artifact@v2

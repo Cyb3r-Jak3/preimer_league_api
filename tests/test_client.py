@@ -72,6 +72,18 @@ def test_create_competitions():
     premier_league_api.create_competitions_file()
 
 
+def test_fixtures():
+    client = APIClient()
+    gameweek_fixtures = client.get_fixtures(season_id=363, gameweek=2)
+    assert len(gameweek_fixtures) == 10
+    season_fixtures = client.get_fixtures(season_id=363)
+    assert len(season_fixtures) == 380
+    example_fixture = season_fixtures[0]
+    assert example_fixture.id == 58898
+    assert len(example_fixture.goals) == 3
+    client.get_fixture(example_fixture.id)
+
+
 def test_fixture():
     client = APIClient()
     fixture = client.get_fixture(59267)

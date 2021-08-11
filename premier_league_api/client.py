@@ -78,6 +78,38 @@ class APIClient:
             )["hits"]["hit"]
         ]
 
+    def get_fixtures(
+        self, season_id: int, gameweek: int = None
+    ) -> List[GameWeekFixture]:
+        """
+        Get a list of all the fixtures in a season/gameweek
+
+        :param season_id: Season ID to get fixtures for
+        :type season_id: int
+        :param gameweek: Gameweek to get fixtures for. If left out will return the entire season
+        :return: List of GameWeekFixture
+        :rtype: List[GameWeekFixture]
+        """
+        if gameweek is None:
+            num_fixtures = self._get(
+                url=f"{STANDARD_URL}fixtures",
+                params={"compSeasons": season_id, "pageSize": 1},
+            )
+        return [
+            GameWeekFixture(x)
+            for x in self._get(
+                url=f"{STANDARD_URL}fixtures",
+                params={
+                    "compSeasons": season_id,
+                    "gameWeek": gameweek,
+                    "sort": "asc",
+                    "pageSize": num_fixtures["pageInfo"]["numEntries"]
+                    if gameweek is None
+                    else None,
+                },
+            )["content"]
+        ]
+
     def get_fixture(self, fixture_id: int, language_code: str = "EN") -> FixtureResult:
         """
         Get a fixture by ID
