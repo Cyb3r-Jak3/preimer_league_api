@@ -23,12 +23,12 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: [3.6, 3.7, 3.8, 3.9, 3.10.0-rc.1]
+        python-version: [3.6, 3.7, 3.8, 3.9, '3.10']
     steps:
     - uses: actions/checkout@v2
 
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
 
@@ -75,7 +75,7 @@ jobs:
       run: make check-dist
 
     - name: Docs Check
-      if: ${{ matrix.python-version != '3.10.0-rc.1' }}
+#      if: ${{ matrix.python-version != '3.10.0-rc.1' }}
       run: make docs
 
     - uses: actions/upload-artifact@v2

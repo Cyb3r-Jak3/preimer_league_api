@@ -7,7 +7,7 @@ updates:
     labels:
       - "dependencies"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     assignees:
       - "Cyb3r-Jak3"
     commit-message:
@@ -21,7 +21,7 @@ updates:
     labels:
         - "dependencies"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     assignees:
       - "Cyb3r-Jak3"
     commit-message:

@@ -1,6 +1,6 @@
 """Responsible for player stats"""
 import warnings
-
+from typing import Optional
 from cached_property import cached_property
 from .shared import Country
 
@@ -90,12 +90,15 @@ class BasePlayer:
         return int(self._data["birth"]["date"]["millis"])
 
     @cached_property
-    def birthplace(self) -> str:
+    def birthplace(self) -> Optional[str]:
         """
         :return: City of birth
         :rtype: str
         """
-        return self._data["birth"]["place"]
+        try:
+            return self._data["birth"]["place"]
+        except KeyError:
+            return None
 
     @cached_property
     def shirtNumber(self) -> int:
