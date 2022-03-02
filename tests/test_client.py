@@ -12,11 +12,11 @@ def test_player():
     client = APIClient()
     with pytest.raises(EmptyResponse):
         client.get_player(-4)
-    example_player = client.get_player(13286)
-    assert example_player.id == 13286
-    assert example_player.position == "F"
-    assert example_player.shirtNumber == 18
-    assert example_player.positionInfo == "Centre Striker"
+    example_player = client.get_player(48285)
+    assert example_player.id == 48285
+    assert example_player.position == "M"
+    assert example_player.shirtNumber == 27
+    assert example_player.positionInfo == "Centre Attacking Midfielder"
     assert example_player.loan
     assert example_player.nationalTeam.country == "England"
     assert example_player.nationalTeam.demonym == "English"
@@ -24,13 +24,13 @@ def test_player():
     assert example_player.birthCountry.country == "England"
     assert example_player.birthCountry.demonym == "English"
     assert example_player.birthCountry.iso_code == "GB-ENG"
-    assert example_player.birthday == "2 October 1997"
-    assert example_player.birthtime == 875750400000
+    assert example_player.birthday == "21 January 2003"
+    assert example_player.birthtime == 1043107200000
     assert isinstance(example_player.age, str)
-    assert example_player.birthplace == "London"
-    assert example_player.fullName == "Tammy Abraham"
-    assert example_player.firstName == "Tammy"
-    assert example_player.lastName == "Abraham"
+    assert example_player.birthplace is None
+    assert example_player.fullName == "Aaron Ramsey"
+    assert example_player.firstName == "Aaron"
+    assert example_player.lastName == "Ramsey"
     assert str(example_player) == repr(example_player) == example_player.fullName
 
     example_player.generate_stats()
@@ -159,7 +159,7 @@ def test_gameweeks():
     assert example_gameweek.gameweek_num == 1
     assert example_gameweek.id == 6662
     assert example_gameweek.matches == 10
-    assert example_gameweek.status == "U"
+    assert example_gameweek.status == "C"
     assert str(example_gameweek) == "Gameweek 1 id: 6662"
     assert repr(example_gameweek) == "Gameweek 1 id: 6662"
 
