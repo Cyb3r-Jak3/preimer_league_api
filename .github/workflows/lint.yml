@@ -78,7 +78,7 @@ jobs:
 #      if: ${{ matrix.python-version != '3.10.0-rc.1' }}
       run: make docs
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: ${{ runner.os }}-${{ matrix.python-version }}
         path: |
