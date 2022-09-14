@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [comment]: <> (### Removed)
 
+## [2.0.0]:
+
+### Changed
+
+Drop support for Python 3.6 and 3.7.
+
 ## [1.1.0]
 
 ### Added
