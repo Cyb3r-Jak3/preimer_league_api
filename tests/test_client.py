@@ -15,7 +15,7 @@ def test_player():
     example_player = client.get_player(48285)
     assert example_player.id == 48285
     assert example_player.position == "M"
-    assert example_player.shirtNumber == 27
+    assert example_player.shirtNumber == 20
     assert example_player.positionInfo == "Centre Attacking Midfielder"
     assert example_player.loan
     assert example_player.nationalTeam.country == "England"

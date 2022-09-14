@@ -203,7 +203,7 @@ class APIClient:
     def _get(self, url: str, params=None) -> dict:
         if params is None:
             params = {}
-        resp = self._session.get(url=url, params=params)
+        resp = self._session.get(url=url, params=params, timeout=10)
         resp.raise_for_status()
         if resp.text == "":
             raise EmptyResponse
