@@ -45,6 +45,7 @@ def download_competitions() -> List["COMPETITION_TEXT"]:
         "https://footballapi.pulselive.com/football/competitions",
         headers={"Origin": "https://www.premierleague.com"},
         params={"page": 0, "pageSize": 100, "detail": 2},
+        timeout=10,
     )
     if results.json()["pageInfo"]["numPages"] != 1:
         warnings.warn(
