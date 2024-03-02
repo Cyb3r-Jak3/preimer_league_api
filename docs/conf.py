@@ -12,7 +12,6 @@
 #
 import os
 import sys
-from premier_league_api import __version__
 
 sys.path.insert(0, os.path.abspath('.'))
 
@@ -20,11 +19,11 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'premier_league_api'
-copyright = '2021, Cyb3r-Jak3'
+copyright = '2021-2024, Cyb3r-Jak3'
 author = 'Cyb3r-Jak3'
 
 # The full version, including alpha/beta/rc tags
-release = __version__
+release = "2.0.0"
 
 
 # -- General configuration ---------------------------------------------------

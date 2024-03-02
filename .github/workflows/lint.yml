@@ -61,7 +61,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install --upgrade pip wheel
+        pip install --upgrade pip wheel setuptools
         pip install -r requirements-dev.txt
 
 #    - name: Install self
