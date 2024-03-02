@@ -64,8 +64,8 @@ jobs:
         pip install --upgrade pip wheel
         pip install -r requirements-dev.txt
 
-    - name: Install self
-      run: pip install .
+#    - name: Install self
+#      run: pip install .
 
     - name: Lint
       run: make lint
