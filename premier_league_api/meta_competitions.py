@@ -1,4 +1,5 @@
 """Generate competitions file"""
+
 import os
 from typing import List
 import warnings

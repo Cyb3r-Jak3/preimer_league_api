@@ -1,4 +1,5 @@
 """Gameweek Fixture Results"""
+
 from typing import List, Optional
 from cached_property import cached_property
 from .shared import Team

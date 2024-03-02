@@ -1,4 +1,5 @@
 """API for calling premier league stats and possibly for more leagues"""
+
 from .client import APIClient
 from .meta_competitions import create_competitions_file
 from .errors import EmptyResponse

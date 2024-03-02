@@ -37,7 +37,10 @@ def test_player():
     with pytest.warns(UserWarning, match="Attempt to generate stats again"):
         example_player.generate_stats()
     assert example_player.accurate_back_zone_pass.name == "accurate_back_zone_pass"
-    assert example_player.accurate_back_zone_pass.description == "Todo: accurate_back_zone_pass"
+    assert (
+        example_player.accurate_back_zone_pass.description
+        == "Todo: accurate_back_zone_pass"
+    )
     assert example_player.accurate_back_zone_pass.additionalInfo == {}
     assert isinstance(example_player.accurate_back_zone_pass.value, int)
 
@@ -130,10 +133,7 @@ def test_fixture_event():
 
 def test_gameweek():
     client = APIClient()
-    gameweek = client.get_gameweek(
-        season_id=363,
-        gameweek=2
-    )
+    gameweek = client.get_gameweek(season_id=363, gameweek=2)
     assert len(gameweek) == 10
     assert isinstance(gameweek[0], premier_league_api.gameweek.GameWeekFixture)
     example_gameweek_fixture = gameweek[0]

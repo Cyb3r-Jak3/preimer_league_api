@@ -1,4 +1,5 @@
 """API Client for requests"""
+
 from typing import List
 import requests
 from .player import Player, SearchPlayer
@@ -103,9 +104,11 @@ class APIClient:
                     "compSeasons": season_id,
                     "gameWeek": gameweek,
                     "sort": "asc",
-                    "pageSize": num_fixtures["pageInfo"]["numEntries"]
-                    if gameweek is None
-                    else None,
+                    "pageSize": (
+                        num_fixtures["pageInfo"]["numEntries"]
+                        if gameweek is None
+                        else None
+                    ),
                 },
             )["content"]
         ]
