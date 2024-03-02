@@ -1,9 +1,7 @@
 """Generate competitions file"""
 
 import os
-import sys
 from typing import List
-import warnings
 from datetime import datetime
 import requests
 
@@ -43,7 +41,7 @@ def download_competitions() -> List[str]:
     :return: List of filled out text
     :rtype: List[COMPETITION_TEXT]
     """
-    competitions: list[dict] = []
+    competitions: List[dict] = []
     results = requests.get(
         "https://footballapi.pulselive.com/football/competitions",
         headers={"Origin": "https://www.premierleague.com"},

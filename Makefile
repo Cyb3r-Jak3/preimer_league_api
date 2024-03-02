@@ -36,7 +36,7 @@ check-dist:
 lint:
 	black --check premier_league_api
 	pylint --disable=invalid-name premier_league_api
-	flake8 --max-line-length 100 --ignore=F403,F401 --statistics --show-source --count premier_league_api
+	flake8 --max-line-length 100 --ignore=F403,F401,W503 --statistics --show-source --count premier_league_api
 	bandit -r premier_league_api
 
 test:
