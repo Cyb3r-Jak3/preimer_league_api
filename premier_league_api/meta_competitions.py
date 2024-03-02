@@ -1,7 +1,7 @@
 """Generate competitions file"""
+
 import os
 from typing import List
-import warnings
 from datetime import datetime
 import requests
 
@@ -34,26 +34,33 @@ class {abbreviation}:
 """
 
 
-def download_competitions() -> List["COMPETITION_TEXT"]:
+def download_competitions() -> List[str]:
     """
     Downloads and returns a list of filled out COMPETITION Text
 
     :return: List of filled out text
     :rtype: List[COMPETITION_TEXT]
     """
+    competitions: List[dict] = []
     results = requests.get(
         "https://footballapi.pulselive.com/football/competitions",
         headers={"Origin": "https://www.premierleague.com"},
         params={"page": 0, "pageSize": 100, "detail": 2},
         timeout=10,
     )
-    if results.json()["pageInfo"]["numPages"] != 1:
-        warnings.warn(
-            "pageSize did not get all competitions."
-            "Please open an issue on Github:"
-            "https://github.com/Cyb3r-Jak3/preimer_league_api/issues/new/choose"
+    competitions.extend(results.json()["content"])
+    next_page = results.json()["pageInfo"]["page"] + 1
+    num_pages = results.json()["pageInfo"]["numPages"]
+    while next_page <= num_pages:
+        results = requests.get(
+            "https://footballapi.pulselive.com/football/competitions",
+            headers={"Origin": "https://www.premierleague.com"},
+            params={"page": next_page, "pageSize": 100, "detail": 2},
+            timeout=10,
         )
-    results.raise_for_status()
+        results.raise_for_status()
+        competitions.extend(results.json()["content"])
+        next_page = results.json()["pageInfo"]["page"] + 1
     return [
         COMPETITION_TEXT.format(
             abbreviation=comp["abbreviation"].replace(" ", "_").replace("-", "_"),
@@ -63,8 +70,10 @@ def download_competitions() -> List["COMPETITION_TEXT"]:
             description=comp["description"],
             source=comp.get("source"),
         )
-        for comp in results.json()["content"]
-        if len(comp["compSeasons"]) != 0
+        for comp in competitions
+        if len(competitions) > 0
+        and comp["abbreviation"][0].isdigit() is False
+        and len(comp["compSeasons"]) > 0
     ]
 
 

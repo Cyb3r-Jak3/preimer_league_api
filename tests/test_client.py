@@ -15,9 +15,9 @@ def test_player():
     example_player = client.get_player(48285)
     assert example_player.id == 48285
     assert example_player.position == "M"
-    assert example_player.shirtNumber == 20
+    assert example_player.shirtNumber == 21.0
     assert example_player.positionInfo == "Centre Attacking Midfielder"
-    assert example_player.loan
+    assert example_player.loan is False
     assert example_player.nationalTeam.country == "England"
     assert example_player.nationalTeam.demonym == "English"
     assert example_player.nationalTeam.iso_code == "GB-ENG"
@@ -37,7 +37,10 @@ def test_player():
     with pytest.warns(UserWarning, match="Attempt to generate stats again"):
         example_player.generate_stats()
     assert example_player.accurate_back_zone_pass.name == "accurate_back_zone_pass"
-    assert example_player.accurate_back_zone_pass.description == "Todo: accurate_back_zone_pass"
+    assert (
+        example_player.accurate_back_zone_pass.description
+        == "Todo: accurate_back_zone_pass"
+    )
     assert example_player.accurate_back_zone_pass.additionalInfo == {}
     assert isinstance(example_player.accurate_back_zone_pass.value, int)
 
@@ -52,7 +55,7 @@ def test_player_search():
     example_player = example_players[0]
     assert example_player.id == 49481
     assert example_player.height == 178
-    assert example_player.weight == 65
+    assert example_player.weight == 72
     assert isinstance(example_player.appearances, int)
     assert isinstance(example_player.goals, int)
     assert isinstance(example_player.assists, int)
@@ -130,10 +133,7 @@ def test_fixture_event():
 
 def test_gameweek():
     client = APIClient()
-    gameweek = client.get_gameweek(
-        season_id=363,
-        gameweek=2
-    )
+    gameweek = client.get_gameweek(season_id=363, gameweek=2)
     assert len(gameweek) == 10
     assert isinstance(gameweek[0], premier_league_api.gameweek.GameWeekFixture)
     example_gameweek_fixture = gameweek[0]

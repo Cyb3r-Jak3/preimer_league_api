@@ -1,4 +1,5 @@
 """Responsible for player stats"""
+
 import warnings
 from typing import Optional
 from cached_property import cached_property

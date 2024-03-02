@@ -1,4 +1,5 @@
 """Responsible for handing full gameweeks"""
+
 from typing import Optional, List
 from cached_property import cached_property
 from .fixture import FixtureResult

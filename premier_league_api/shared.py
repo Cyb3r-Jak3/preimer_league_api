@@ -1,4 +1,5 @@
 """Shared classes"""
+
 from typing import Optional
 from cached_property import cached_property
 
